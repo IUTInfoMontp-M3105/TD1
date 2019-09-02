@@ -33,7 +33,7 @@ LIEN CLASSROOM À METTRE ICI
 
 Date limite de rendu de votre code sur le dépôt GitHub : **Dimanche 15 Septembre, 23h00**
 
-### Exercice 1
+### Sujet
 Dans la banque *BronzeManCrooks* un client souhaitant avoir un *compte* doit choisir parmi les différents types : *compte courant*, *livret*, *compte pro* etc. Il y a plusieurs types de livrets : *livret A*, *livret d'épargne PlusPlus*, *livret de spéculation*, etc.
 
 Tous les comptes ont un solde (`double`), un IBAN (une donnée de type `String`), un nom de client et une adresse (des données de type `String`). Toutes ces données sont initialisées avec le constructeur. Le nom peut être modifié avec une méthode *modifieur* (*setter*). Une méthode *accesseur* `public double getSolde()` doit retourner le solde de chaque compte. Un compte pro possède en plus un numéro SIREN, alors que le compte courant enregistre le NoINSEE de la personne physique détenteur du compte.
@@ -68,4 +68,5 @@ Chaque livret possède un *taux d'intérêts* de type `double`. Vous pouvez supp
     * afficher le solde total de tous les comptes
     * afficher l'ensemble des informations concernant chacun des comptes.
     
-7. **Gros Bonus :** Pour ceux qui s'ennuient car ils ont tout fait très bien (mais pas que pour eux), observez que les constructeurs de vos classes ont beaucoup de paramètres. Certains d'entre vous avait rencontré dans le passé la notion de [*Builder*](https://fr.wikipedia.org/wiki/Monteur_(patron_de_conception), un modèle de conception destiné à proposer une construction flexible des objets complexes (cf. [ce TP](https://github.com/IUTInfoMontp-M2103/TP3/blob/master/README.md#exercice-3-bonus) de l'an dernier). Réfléchissez à une façon de réorganiser votre solution pour l'implémenter et apportez plus de souplesse à votre programme.
+### Gros Bonus
+Pour ceux qui s'ennuient car ils ont tout fait très bien (mais pas que pour eux), observez que les constructeurs de vos classes ont beaucoup de paramètres. Certains d'entre vous avait rencontré dans le passé la notion de [Builder](https://fr.wikipedia.org/wiki/Monteur_(patron_de_conception)), un modèle de conception destiné à proposer une construction flexible des objets complexes (cf. [ce TP](https://github.com/IUTInfoMontp-M2103/TP3/blob/master/README.md#exercice-3-bonus) de l'an dernier). Réfléchissez à une façon de réorganiser votre solution pour l'implémenter et apportez plus de souplesse à votre programme.
