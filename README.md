@@ -67,3 +67,5 @@ Chaque livret possède un *taux d'intérêts* de type `double`. Vous pouvez supp
     *  créer un compte groupé pour le client "Tintin Duchmolle" et lui ajouter un compte groupé contenant un compte courant *A* et un compte groupé *B*. Le compte groupé *B* devra contenir un *livret A*, un *livret PlusPlus* et un *livret de spéculation*.
     * afficher le solde total de tous les comptes
     * afficher l'ensemble des informations concernant chacun des comptes.
+    
+7. **Gros Bonus :** Pour ceux qui s'ennuient car ils ont tout fait très bien (mais pas que pour eux), observez que les constructeurs de vos classes ont beaucoup de paramètres. Certains d'entre vous avait rencontré dans le passé la notion de [*Builder*](https://fr.wikipedia.org/wiki/Monteur_(patron_de_conception), un modèle de conception destiné à proposer une construction flexible des objets complexes (cf. [ce TP](https://github.com/IUTInfoMontp-M2103/TP3/blob/master/README.md#exercice-3-bonus) de l'an dernier). Réfléchissez à une façon de réorganiser votre solution pour l'implémenter et apportez plus de souplesse à votre programme.
