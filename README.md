@@ -29,7 +29,7 @@ votre travail pour chaque exercice et vous permettra également de mieux révise
 
 Cliquez sur le lien ci-dessous pour faire votre fork privé du TP :
 
-LIEN CLASSROOM À METTRE ICI
+https://classroom.github.com/a/BBj4cBic
 
 Date limite de rendu de votre code sur le dépôt GitHub : **Dimanche 15 Septembre, 23h00**
 
