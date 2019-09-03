@@ -16,6 +16,38 @@ dernier (encapsulation, polymorphisme, DRY, KISS etc.)
     * celles d’Oracle : https://www.oracle.com/technetwork/java/codeconventions-150003.pdf
     * une autre convention, par ex. https://google.github.io/styleguide/javaguide.html
 
+### Prise en main des outils
+Tous les TDs de CPOA seront hébergés dans l'organisation GitHub du module :
+
+https://github.com/IUTInfoMontp-M3105
+
+Le schéma de travail sera le suivant :
+1. Si ce n'est pas encore fait au semestre précédent, demandez le [StudentPack](https://education.github.com/pack) de GitHub. Vous obtiendrez la licence gratuite pour plusieurs outils payants et notamment la possibilité d'avoir des **projets privés** sur GitHub.
+2. Dans le dépôt de chaque TP, un lien **GitHub Classroom** vous permet de créer un fork du projet et d'affecter automatiquement votre projet à l'organisation *IUTInfoMontp-M3105*. Ce qui permet aux enseignants d'être admins sur votre projet. L'adresse de votre fork sera :
+ https://github.com/IUTInfoMontp-M3105/TP1-VotreLogin
+ 
+    La commande pour le cloner en local (le télécharger sur votre machine) :
+
+    `~/CPOA$ git clone https://github.com/IUTInfoMontp-M3105/TP1-VotreLogin`
+
+3. Ensuite, pour travailler **localement** vous allez utiliser **Git** pour suivre l'évolution de votre travail. Vérifiez d'abord que votre configuration locale est correcte en ouvrant le fichier `.gitconfig` de votre `$HOME`. Votre configuration devrait rassembler à cela :
+    ```
+    [user]
+    username = prenom-nom
+    name = Prenom Nom
+    email = prenom.nom@etu-umontpellier.fr
+    ```
+   
+4. Pour chaque changement dans votre dépôt local que vous compter enregistrer, vous ferrez : 
+    ```
+    ~/CPOA/TP1-VotreLogin$ git add lEnsembleDeFichiersQueVousSouhaitezSuivre
+    ~/CPOA/TP1-VotreLogin$ git commit -m "leMessagePourExpliquerLaSauvegarde"
+    ```
+
+    **Conseil :** Privilégiez des petits commits (un par fonctionnalité), plutôt que des gros commits. Un bon baromètre c'est la longueur du message de commit : plus la fonctionnalité est petite, plus courte est l'explication !
+
+5 À la fin de votre travail, n'oubliez pas de pousser vos changements sur le dépôt distant.
+
 Vous trouverez le regroupement de la documentation concernant Git, ainsi que les transparents
 du cours, dans [ce dépôt](https://github.com/IUTInfoMontp-M3105/Ressources).
 
@@ -25,7 +57,7 @@ teurs, setters, getters, etc.).
 
 **Conseil :** Afin de garder une trace de la progression de votre application, on vous conseille de
 travailler dans un package différent pour chaque exercice. Cela vous permettra de mieux comparer
-votre travail pour chaque exercice et vous permettra également de mieux réviser plus tard.
+votre travail pour chaque exercice et également de mieux réviser plus tard.
 
 Cliquez sur le lien ci-dessous pour faire votre fork privé du TP :
 
