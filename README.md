@@ -28,7 +28,7 @@ Le schéma de travail sera le suivant :
  
     La commande pour le cloner en local (le télécharger sur votre machine) :
 
-    `~/CPOA$ git clone https://github.com/IUTInfoMontp-M3105/TP1-VotreLogin`
+    `~/CPOA$ git clone https://github.com/IUTInfoMontp-M3105/TD1-VotreLogin`
 
 3. Ensuite, pour travailler **localement** vous allez utiliser **Git** pour suivre l'évolution de votre travail. Vérifiez d'abord que votre configuration locale est correcte en ouvrant le fichier `.gitconfig` de votre `$HOME`. Votre configuration devrait rassembler à cela :
     ```
