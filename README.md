@@ -46,10 +46,9 @@ Le schéma de travail sera le suivant :
 
     **Conseil :** Privilégiez des petits commits (un par fonctionnalité), plutôt que des gros commits. Un bon baromètre c'est la longueur du message de commit : plus la fonctionnalité est petite, plus courte est l'explication !
 
-5 À la fin de votre travail, n'oubliez pas de pousser vos changements sur le dépôt distant.
+5. À la fin de votre travail, n'oubliez pas de pousser vos changements sur le dépôt distant.
 
-Vous trouverez le regroupement de la documentation concernant Git, ainsi que les transparents
-du cours, dans [ce dépôt](https://github.com/IUTInfoMontp-M3105/Ressources).
+La documentation concernant Git, ainsi que les transparents du cours, sont accecible dans [ce dépôt](https://github.com/IUTInfoMontp-M3105/Ressources).
 
 Il est vivement recommandé d’utiliser au maximum les fonctionnalités de l’IDE pour réaliser les
 tâches courantes (renommage d’attributs/méthodes, génération des différentes méthodes : construc-
@@ -63,7 +62,7 @@ Cliquez sur le lien ci-dessous pour faire votre fork privé du TP :
 
 https://classroom.github.com/a/lEGllhLA
 
-Date limite de rendu de votre code sur le dépôt GitHub : **Dimanche 15 Septembre, 23h00**
+Date limite de rendu de votre code sur le dépôt GitHub : **Dimanche 27 Septembre, 23h00**
 
 ### Sujet
 Dans la banque *BronzeManCrooks* un client souhaitant avoir un *compte* doit choisir parmi les différents types : *compte courant*, *livret*, *compte pro* etc. Il y a plusieurs types de livrets : *livret A*, *livret d'épargne PlusPlus*, *livret de spéculation*, etc.
