@@ -67,14 +67,15 @@ Date limite de rendu de votre code sur le dépôt GitHub : **Dimanche 27 Septemb
 ### Sujet
 Dans la banque *BronzeManCrooks* un client souhaitant avoir un *compte* doit choisir parmi les différents types : *compte courant*, *livret*, *compte pro* etc. Il y a plusieurs types de livrets : *livret A*, *livret d'épargne PlusPlus*, *livret de spéculation*, etc.
 
-Tous les comptes ont un solde (`double`), un IBAN (une donnée de type `String`), un nom de client et une adresse (des données de type `String`). Toutes ces données sont initialisées avec le constructeur. Le nom peut être modifié avec une méthode *modifieur* (*setter*). Une méthode *accesseur* `public double getSolde()` doit retourner le solde de chaque compte. Un compte pro possède en plus un numéro SIREN, alors que le compte courant enregistre le NoINSEE de la personne physique détenteur du compte.
+Tous les comptes ont un solde, un IBAN, un nom de client et une adresse. Toutes ces données sont initialisées avec le constructeur. Le nom peut être modifié avec une méthode *modifieur* (*setter*). Une méthode *accesseur*  doit retourner le solde de chaque compte. Un compte pro possède en plus un numéro SIREN, alors que le compte courant enregistre le NoINSEE de la personne physique détenteur du compte.
 
-Chaque livret possède un *taux d'intérêts* de type `double`. Vous pouvez supposer que cette valeur réelle est entre 0 et 1. Ainsi, la méthode `public double getSolde()` doit retourner le solde du compte + les intérêts (dans la vraie vie, ça serait trop beau, mais on va supposer pour le fun que c'est comme ça...). De plus, le livret A a un *plafond* de dépôt maximum, le livre d’épargne a un *taux d'imposition* (valeur réelle entre 0 et 1) et le livret de spéculation a deux données : une *taxe* fixe qui s'appliquera à chaque transaction réalisée avec ce livret et le *nombre de transactions*.
+Chaque livret possède un *taux d'intérêts*. Vous pouvez supposer que cette valeur réelle est entre 0 et 1. Ainsi, la méthode *accesseur* doit retourner le solde du compte + les intérêts (dans la vraie vie, ça serait trop beau, mais on va supposer pour le fun que c'est comme ça...). De plus, le livret A a un *plafond* de dépôt maximum, le livre d’épargne a un *taux d'imposition* (valeur réelle entre 0 et 1) et le livret de spéculation a deux données : une *taxe* fixe qui s'appliquera à chaque transaction réalisée avec ce livret et le *nombre de transactions*.
 
 **Remarque :** Dans ce qui suit il ne vous est pas demandé de modéliser le client, la seule information le concernant étant l'attribut `nom` évoqué ci-dessus.
 
-**Remarque :** La plupart de questions étant assez simples, on attend de vous un code propre, respectant les différents principes objets : encapsulation, non-duplication de code, etc.
+**Remarque :** La plupart des questions étant assez simples, on attend de vous des diagrammes et un code propres, respectant les différents principes UML et objets : héritage, encapsulation, non-duplication de code, etc.
 
+NL: stopped here!
 
 1. Proposez un diagramme de classes en y indiquant les relations entre les classes, les attributs, les méthodes, ainsi que leur visibilité. Votre solution doit permettre l'ajout facile d'autres types de comptes. Vous pouvez utiliser un logiciel de modélisation que vous souhaitez où bien le faire sur papier.
 
