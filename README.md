@@ -75,13 +75,18 @@ Chaque livret possède un *taux d'intérêts*. Vous pouvez supposer que cette va
 
 **Remarque :** La plupart des questions étant assez simples, on attend de vous des diagrammes et un code propres, respectant les différents principes UML et objets : héritage, encapsulation, non-duplication de code, etc.
 
-1. Proposez un diagramme de cas d'utilisation. 
+1. Modélisez à l'aide de StarUML les différents cas d'utilisations. 
 
-NL: stopped here!
-2. Proposez un diagramme de classes en y indiquant les relations entre les classes, les attributs, les méthodes, ainsi que leur visibilité. Votre solution doit permettre l'ajout facile d'autres types de comptes. Vous pouvez utiliser un logiciel de modélisation que vous souhaitez où bien le faire sur papier.
+2. Proposez un diagramme de classes en y indiquant les relations entre les classes, les attributs, les méthodes, ainsi que leur visibilité. Votre solution doit permettre l'ajout facile d'autres types de comptes.
 
     **Remarque :** un compte ou un livret ne peuvent pas exister en tant que tels, ils doivent forcément être d'un type spécifique (compte courant ou livret A par exemple).
-  
+
+3. Donnez un diagramme d'objet à partir du diagramme de classes.
+
+4. Utilisez le générateur automatique de StarUML du code Java correspondant à vos diagrammes. Complétez / corrigez votre code si besoin.
+
+NL: stopped here!
+
 3. Écrivez le code `Java` correspondant et implémentez également la méthode `toString()` pour permettre l'affichage de l'intégralité des informations du compte. Vérifiez le bon fonctionnement de votre programme en implémentant la méthode principe `public static void main(String args[])` de la classe `App`. Vous allez créer au moins un compte pour chacun des 5 types de comptes mentionnés ci-dessus et les initialiser avec des valeurs d'attributs **distinctes**.
 
 4. On vous demande maintenant d'ajouter un plafond de découverte pour tous les comptes, qui est à initialiser avec un méthode *setter*. Combien d'ajouts et de modifications devez-vous faire dans votre code ?
