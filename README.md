@@ -81,19 +81,17 @@ Chaque livret possède un *taux d'intérêts*. Vous pouvez supposer que cette va
 
     **Remarque :** un compte ou un livret ne peuvent pas exister en tant que tels, ils doivent forcément être d'un type spécifique (compte courant ou livret A par exemple).
 
-3. Donnez un diagramme d'objet à partir du diagramme de classes.
+3. Donnez un diagramme d'objet à partir du diagramme de classes. Vous devez instancier chaque classe instanciable dans votre diagramme de classes.
 
 4. Utilisez le générateur automatique de StarUML du code Java correspondant à vos diagrammes. Complétez / corrigez votre code si besoin.
 
-NL: stopped here!
+5. Implémentez la méthode `toString()` pour permettre l'affichage de l'intégralité des informations du compte. Vérifiez le bon fonctionnement de votre programme en implémentant la méthode principale `main` de la classe `App`. Appuyez-vous sur votre diagramme d'objet. 
 
-3. Écrivez le code `Java` correspondant et implémentez également la méthode `toString()` pour permettre l'affichage de l'intégralité des informations du compte. Vérifiez le bon fonctionnement de votre programme en implémentant la méthode principe `public static void main(String args[])` de la classe `App`. Vous allez créer au moins un compte pour chacun des 5 types de comptes mentionnés ci-dessus et les initialiser avec des valeurs d'attributs **distinctes**.
+6. Ajoutez un plafond de découvert autorisé pour tous les comptes, qui est à initialiser avec une méthode *setter*. Donnez le nombre d'ajouts et le nombre de modifications apportés.
 
-4. On vous demande maintenant d'ajouter un plafond de découverte pour tous les comptes, qui est à initialiser avec un méthode *setter*. Combien d'ajouts et de modifications devez-vous faire dans votre code ?
-
-5. On vient vers vous avec une nouvelle précision : avec la mise en place du prélèvement à la source par le gouvernement, il faut que le solde de chaque type de livret tienne compte des différentes taxes. Ajoutez cette fonctionnalité **sans modifier** le programme précédemment écrit.
+7. Nouveau besoin : avec la mise en place du prélèvement à la source par le gouvernement, il faut que le solde de chaque type de livret tienne compte des différentes taxes. Ajoutez cette fonctionnalité **sans revoir** le code précédemment écrit.
    
-6. Moyennant un *prix* fixé par l'utilisateur (donnée de type `double`), il est possible de détenir un *compte groupé* : un regroupement de plusieurs comptes différents. Le nombre de "sous-comptes" autorisés dans un tel compte groupé est potentiellement illimité et il est toujours possible d'en ajouter  d'autres (à travers une méthode). De plus, il est possible d'avoir plusieurs comptes groupés dans un compte groupé (pour chaque membre de sa famille par exemple, ou pour son entreprise...). Dans tous les cas, chaque compte groupé aura son propre prix.
+6. Moyennant un *prix* fixé par l'utilisateur, il est possible de détenir un *compte groupé* : un regroupement de plusieurs comptes différents. Le nombre de "sous-comptes" autorisés dans un tel compte groupé est potentiellement illimité et il est toujours possible d'en ajouter  d'autres (à l'aide d'une méthode). De plus, il est possible d'avoir plusieurs comptes groupés dans un compte groupé (pour chaque membre de sa famille par exemple, ou pour son entreprise...). Dans tous les cas, chaque compte groupé aura son propre prix.
    
    Complétez votre diagramme de classes et proposez une implémentation en *Java*. Assurez-vous que la méthode `public double getSolde()}` retourne la somme des soldes de tous les "sous-comptes" du compte groupé correspondant.
    
