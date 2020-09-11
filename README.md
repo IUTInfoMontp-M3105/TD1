@@ -91,15 +91,15 @@ Chaque livret possède un *taux d'intérêts*. Vous pouvez supposer que cette va
 
 7. Nouveau besoin : avec la mise en place du prélèvement à la source par le gouvernement, il faut que le solde de chaque type de livret tienne compte des différentes taxes. Ajoutez cette fonctionnalité **sans revoir** le code précédemment écrit.
    
-6. Moyennant un *prix* fixé par l'utilisateur, il est possible de détenir un *compte groupé* : un regroupement de plusieurs comptes différents. Le nombre de "sous-comptes" autorisés dans un tel compte groupé est potentiellement illimité et il est toujours possible d'en ajouter  d'autres (à l'aide d'une méthode). De plus, il est possible d'avoir plusieurs comptes groupés dans un compte groupé (pour chaque membre de sa famille par exemple, ou pour son entreprise...). Dans tous les cas, chaque compte groupé aura son propre prix.
+8. Moyennant un *prix* fixé par l'utilisateur, il est possible de détenir un *compte groupé* : un regroupement de plusieurs comptes différents. Le nombre de "sous-comptes" autorisés dans un tel compte groupé est potentiellement illimité et il est toujours possible d'en ajouter  d'autres (à l'aide d'une méthode). De plus, il est possible d'avoir plusieurs comptes groupés dans un compte groupé (pour chaque membre de sa famille par exemple, ou pour son entreprise...). Dans tous les cas, chaque compte groupé aura son propre prix.
    
-   Complétez votre diagramme de classes et proposez une implémentation en *Java*. Assurez-vous que la méthode `public double getSolde()}` retourne la somme des soldes de tous les "sous-comptes" du compte groupé correspondant.
+   Complétez votre diagramme de classes et proposez une implémentation en *Java*. Assurez-vous que la méthode `getSolde()}` retourne la somme des soldes de tous les "sous-comptes" du compte groupé correspondant.
    
    **NB :** à la création vous pouvez supposer que le solde d'un compte groupé est 0.
    
-7. On souhaite pouvoir afficher l'ensemble des informations de chacun des comptes d'un compte groupé. En vous inspirant de l'exemple précédent, redéfinissez la méthode `toString()` dans les classes qui vous semblent appropriées afin que cette méthode retourne une chaîne de caractères contenant l'intégralité des informations du compte correspondant.
+9. On souhaite pouvoir afficher l'ensemble des informations de chacun des comptes d'un compte groupé. En vous inspirant de l'exemple précédent, redéfinissez la méthode `toString()` dans les classes qui vous semblent appropriées afin que cette méthode retourne une chaîne de caractères contenant l'intégralité des informations du compte correspondant.
 
-8. Dans la méthode principale `public static void main(String args[])` de la classe cliente (`App`) effectuez les actions suivantes dans l'ordre :
+10. Dans la méthode principale `main` de la classe (`App`) effectuez les actions suivantes dans l'ordre :
 
     *  créer un compte groupé pour le client "Tintin Duchmolle" et lui ajouter un compte groupé contenant un compte courant *A* et un compte groupé *B*. Le compte groupé *B* devra contenir un *livret A*, un *livret PlusPlus* et un *livret de spéculation*.
     * afficher le solde total de tous les comptes
