@@ -2,7 +2,7 @@
 ### IUT Montpellier-Sète – Département Informatique
 * **Cours:** [M3105](http://cache.media.enseignementsup-recherche.gouv.fr/file/25/09/7/PPN_INFORMATIQUE_256097.pdf) - support [ici](https://github.com/IUTInfoMontp-M3105/Ressources)
 * **Enseignants:** [Nassim Belmecheri](mailto:nassim.belmecheri@umontpellier.fr), [Nadjib Lazaar](mailto:nadjib.lazaar@umontpellier.fr), [Sophie Nabitz](mailto:sophie.nabitz@univ-avignon.fr), [Petru Valicov](mailto:petru.valicov@umontpellier.fr) 
-* Le [forum Piazza](https://piazza.com/class/jzs4o7je7zm1a0) de ce cours pour poser vos questions
+* Le [forum Piazza](https://piazza.com/class/kek1cuqz3ep7o) de ce cours pour poser vos questions
 * [Email](mailto:nadjib.lazaar@umontpellier.fr) pour une question d'ordre privée concernant le cours.
 * Le [sujet du TP](https://gitprint.com/IUTInfoMontp-M3105/TD1) en format .pdf téléchargeable et imprimable.
 
