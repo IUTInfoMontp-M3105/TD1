@@ -65,7 +65,7 @@ https://classroom.github.com/a/lEGllhLA
 Date limite de rendu de votre code sur le dépôt GitHub : **Dimanche 27 Septembre, 23h00**
 
 ### Sujet
-Dans la banque *BronzeManCrooks* un client souhaitant avoir un *compte* doit choisir parmi les différents types : *compte courant*, *livret*, *compte pro* etc. Il y a plusieurs types de livrets : *livret A*, *livret d'épargne PlusPlus*, *livret de spéculation*, etc.
+Dans la banque *BronzeManCrooks* un client souhaitant ouvrir un *compte* doit choisir parmi les différents types : *compte courant*, *livret*, *compte pro* etc. Il y a plusieurs types de livrets : *livret A*, *livret d'épargne PlusPlus*, *livret de spéculation*, etc.
 
 Tous les comptes ont un solde, un IBAN, un nom de client et une adresse. Toutes ces données sont initialisées avec le constructeur. Le nom peut être modifié avec une méthode *modifieur* (*setter*). Une méthode *accesseur*  doit retourner le solde de chaque compte. Un compte pro possède en plus un numéro SIREN, alors que le compte courant enregistre le NoINSEE de la personne physique détenteur du compte.
 
