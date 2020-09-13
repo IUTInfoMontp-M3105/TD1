@@ -103,6 +103,7 @@ Chaque livret possède un *taux d'intérêts*. Vous pouvez supposer que cette va
     * afficher le solde total de tous les comptes
     * afficher l'ensemble des informations concernant chacun des comptes.
     
-Observez que les constructeurs de vos classes ont beaucoup de paramètres. Certains d'entre vous avait rencontré dans le passé la notion de [Builder](https://fr.wikipedia.org/wiki/Monteur_(patron_de_conception)), un modèle de conception destiné à proposer une construction flexible des objets complexes (cf. [ce TP](https://github.com/IUTInfoMontp-M2103/TP3/blob/master/README.md#exercice-3-bonus) de l'an dernier). 
+Comme vous pouvez le constater, l'object *Compte* est un objet complexe qui necessite une création en plusieurs étapes d'objets encapsulés. Il est donc important de réflechir à une conception de haut niveau. Une solution possible est de décharger la classe de la tâche de construction et de faire appel à des spécialistes de la construction, les "Builder" ( [Builder](https://fr.wikipedia.org/wiki/Monteur_(patron_de_conception), cf. [TP](https://github.com/IUTInfoMontp-M2103/TP3/blob/master/README.md#exercice-3-bonus) de l'an dernier). 
 
-11. Réfléchissez à une façon de réorganiser votre solution pour l'implémenter et apporter plus de souplesse à votre programme.
+11. Révisez votre diagramme de classe en faisant appel au *Builder* du design pattern. 
+12. Révisez votre code en fonction de votre nouvelle solution.
