@@ -71,8 +71,6 @@ Tous les comptes ont un solde, un IBAN, un nom de client et une adresse. Toutes 
 
 Chaque livret possède un *taux d'intérêts*. Vous pouvez supposer que cette valeur réelle est entre 0 et 1. Ainsi, la méthode *accesseur* doit retourner le solde du compte + les intérêts (dans la vraie vie, ça serait trop beau, mais on va supposer pour le fun que c'est comme ça...). De plus, le livret A a un *plafond* de dépôt maximum, le livre d’épargne a un *taux d'imposition* (valeur réelle entre 0 et 1) et le livret de spéculation a deux données : une *taxe* fixe qui s'appliquera à chaque transaction réalisée avec ce livret et le *nombre de transactions*.
 
-**Remarque :** Dans ce qui suit il ne vous est pas demandé de modéliser le client, la seule information le concernant étant l'attribut `nom` évoqué ci-dessus.
-
 **Remarque :** La plupart des questions étant assez simples, on attend de vous des diagrammes et un code propres, respectant les différents principes UML et objets : héritage, encapsulation, non-duplication de code, etc.
 
 1. Modélisez à l'aide de StarUML les différents cas d'utilisations. 
@@ -105,5 +103,6 @@ Chaque livret possède un *taux d'intérêts*. Vous pouvez supposer que cette va
     * afficher le solde total de tous les comptes
     * afficher l'ensemble des informations concernant chacun des comptes.
     
-### Gros Bonus
-Pour ceux qui s'ennuient car ils ont tout fait très bien (mais pas que pour eux), observez que les constructeurs de vos classes ont beaucoup de paramètres. Certains d'entre vous avait rencontré dans le passé la notion de [Builder](https://fr.wikipedia.org/wiki/Monteur_(patron_de_conception)), un modèle de conception destiné à proposer une construction flexible des objets complexes (cf. [ce TP](https://github.com/IUTInfoMontp-M2103/TP3/blob/master/README.md#exercice-3-bonus) de l'an dernier). Réfléchissez à une façon de réorganiser votre solution pour l'implémenter et apporter plus de souplesse à votre programme.
+Observez que les constructeurs de vos classes ont beaucoup de paramètres. Certains d'entre vous avait rencontré dans le passé la notion de [Builder](https://fr.wikipedia.org/wiki/Monteur_(patron_de_conception)), un modèle de conception destiné à proposer une construction flexible des objets complexes (cf. [ce TP](https://github.com/IUTInfoMontp-M2103/TP3/blob/master/README.md#exercice-3-bonus) de l'an dernier). 
+
+11. Réfléchissez à une façon de réorganiser votre solution pour l'implémenter et apporter plus de souplesse à votre programme.
