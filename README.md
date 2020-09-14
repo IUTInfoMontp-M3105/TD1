@@ -79,7 +79,7 @@ Chaque livret possède un *taux d'intérêts*. Vous pouvez supposer que cette va
 
     **Remarque :** un compte ou un livret ne peuvent pas exister en tant que tels, ils doivent forcément être d'un type spécifique (compte courant ou livret A par exemple).
 
-3. Donnez un diagramme d'objet à partir du diagramme de classes. Vous devez instancier chaque classe instanciable dans votre diagramme de classes.
+3. Illustrez chaque classe du diagramme de classes à l'aide d'un diagramme d'objet.
 
 4. Utilisez le générateur automatique de StarUML du code Java correspondant à vos diagrammes. Complétez / corrigez votre code si besoin.
 
