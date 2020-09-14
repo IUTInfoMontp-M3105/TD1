@@ -81,7 +81,7 @@ Chaque livret possède un *taux d'intérêts*. Vous pouvez supposer que cette va
 
 3. Illustrez chaque classe du diagramme de classes à l'aide d'un diagramme d'objet.
 
-4. Utilisez le générateur automatique de StarUML du code Java correspondant à vos diagrammes. Complétez / corrigez votre code si besoin.
+4. Utilisez le générateur automatique de StarUML pour récupérer le code Java de la structure du système. Complétez / corrigez votre code si besoin.
 
 5. Implémentez la méthode `toString()` pour permettre l'affichage de l'intégralité des informations du compte. Vérifiez le bon fonctionnement de votre programme en implémentant la méthode principale `main` de la classe `App`. Appuyez-vous sur votre diagramme d'objet. 
 
