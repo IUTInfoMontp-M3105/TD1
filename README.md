@@ -69,7 +69,7 @@ Dans la banque *BronzeManCrooks* un client souhaitant ouvrir un *compte* doit ch
 
 Tous les comptes ont un solde, un IBAN, un nom de client et une adresse. Toutes ces données sont initialisées avec le constructeur. Le nom peut être modifié avec une méthode *modifieur* (*setter*). Une méthode *accesseur*  doit retourner le solde de chaque compte. Un compte pro possède en plus un numéro SIREN, alors que le compte courant enregistre le NoINSEE de la personne physique détenteur du compte.
 
-Chaque livret possède un *taux d'intérêts*. Vous pouvez supposer que cette valeur réelle est entre 0 et 1. Ainsi, la méthode *accesseur* doit retourner le solde du compte + les intérêts (dans la vraie vie, ça serait trop beau, mais on va supposer pour le fun que c'est comme ça...). De plus, le livret A a un *plafond* de dépôt maximum, le livre d’épargne a un *taux d'imposition* (valeur réelle entre 0 et 1) et le livret de spéculation a deux données : une *taxe* fixe qui s'appliquera à chaque transaction réalisée avec ce livret et le *nombre de transactions*.
+Chaque livret possède un *taux d'intérêts*. Vous pouvez supposer que cette valeur réelle est entre 0 et 1. Ainsi, la méthode *accesseur* doit retourner le solde du compte + les intérêts. De plus, le livret A a un *plafond* de dépôt maximum, le livre d’épargne a un *taux d'imposition* (valeur réelle entre 0 et 1) et le livret de spéculation a deux données : une *taxe* fixe qui s'appliquera à chaque transaction réalisée avec ce livret et le *nombre de transactions*.
 
 **Remarque :** La plupart des questions étant assez simples, on attend de vous des diagrammes et un code propres, respectant les différents principes UML et objets : héritage, encapsulation, non-duplication de code, etc.
 
