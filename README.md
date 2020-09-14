@@ -102,5 +102,3 @@ Chaque livret possède un *taux d'intérêts*. Vous pouvez supposer que cette va
     *  créer un compte groupé pour le client "Tintin Duchmolle" et lui ajouter un compte groupé contenant un compte courant *A* et un compte groupé *B*. Le compte groupé *B* devra contenir un *livret A*, un *livret PlusPlus* et un *livret de spéculation*.
     * afficher le solde total de tous les comptes
     * afficher l'ensemble des informations concernant chacun des comptes.
-    
-Comme vous pouvez le constater, l'object *Compte* est un objet complexe qui necessite une création en plusieurs étapes d'objets encapsulés. Il est donc important de réflechir à une conception de haut niveau. Une solution possible est de décharger la classe de la tâche de construction et de faire appel à des spécialistes de la construction, les "Builder" ( [Builder](https://fr.wikipedia.org/wiki/Monteur_(patron_de_conception), cf. [TP](https://github.com/IUTInfoMontp-M2103/TP3/blob/master/README.md#exercice-3-bonus) de l'an dernier). 
