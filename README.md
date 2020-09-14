@@ -75,7 +75,7 @@ Chaque livret possède un *taux d'intérêts*. Vous pouvez supposer que cette va
 
 1. Modélisez à l'aide de StarUML les différents cas d'utilisations. 
 
-2. Proposez un diagramme de classes en y indiquant les relations entre les classes, les attributs, les méthodes, ainsi que leur visibilité. Votre solution doit permettre l'ajout facile d'autres types de comptes.
+2. Proposez un diagramme de classes avec les relations, les attributs, les méthodes, ainsi que les visibilités. Votre solution doit permettre l'ajout facile d'autres types de comptes.
 
     **Remarque :** un compte ou un livret ne peuvent pas exister en tant que tels, ils doivent forcément être d'un type spécifique (compte courant ou livret A par exemple).
 
