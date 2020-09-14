@@ -65,7 +65,7 @@ https://classroom.github.com/a/lEGllhLA
 Date limite de rendu de votre code sur le dépôt GitHub : **Dimanche 27 Septembre, 23h00**
 
 ### Sujet
-Dans la banque *BronzeManCrooks* un client souhaitant ouvrir un *compte* doit choisir parmi les différents types : *compte courant*, *livret*, *compte pro* etc. Il y a plusieurs types de livrets : *livret A*, *livret d'épargne PlusPlus*, *livret de spéculation*, etc.
+Dans la banque *BronzeManCrooks* un client souhaitant ouvrir un *compte* doit choisir parmi les différents types : *compte courant*, *livret*, *compte pro* etc. Il y a plusieurs types de livrets : *livret A*, *livret d'épargne PlusPlus*, *livret de spéculation*.
 
 Tous les comptes ont un solde, un IBAN, un nom de client et une adresse. Toutes ces données sont initialisées avec le constructeur. Le nom peut être modifié avec une méthode *modifieur* (*setter*). Une méthode *accesseur*  doit retourner le solde de chaque compte. Un compte pro possède en plus un numéro SIREN, alors que le compte courant enregistre le NoINSEE de la personne physique détenteur du compte.
 
@@ -104,6 +104,3 @@ Chaque livret possède un *taux d'intérêts*. Vous pouvez supposer que cette va
     * afficher l'ensemble des informations concernant chacun des comptes.
     
 Comme vous pouvez le constater, l'object *Compte* est un objet complexe qui necessite une création en plusieurs étapes d'objets encapsulés. Il est donc important de réflechir à une conception de haut niveau. Une solution possible est de décharger la classe de la tâche de construction et de faire appel à des spécialistes de la construction, les "Builder" ( [Builder](https://fr.wikipedia.org/wiki/Monteur_(patron_de_conception), cf. [TP](https://github.com/IUTInfoMontp-M2103/TP3/blob/master/README.md#exercice-3-bonus) de l'an dernier). 
-
-11. Révisez votre diagramme de classe en faisant appel au *Builder* du design pattern. 
-12. Révisez votre code en fonction de votre nouvelle solution.
