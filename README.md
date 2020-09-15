@@ -4,7 +4,7 @@
 * **Enseignants:** [Nassim Belmecheri](mailto:nassim.belmecheri@umontpellier.fr), [Nadjib Lazaar](mailto:nadjib.lazaar@umontpellier.fr), [Sophie Nabitz](mailto:sophie.nabitz@univ-avignon.fr), [Petru Valicov](mailto:petru.valicov@umontpellier.fr) 
 * Le [forum Piazza](https://piazza.com/class/kek1cuqz3ep7o) de ce cours pour poser vos questions
 * [Email](mailto:nadjib.lazaar@umontpellier.fr) pour une question d'ordre privée concernant le cours.
-* Le [sujet du TP](https://gitprint.com/IUTInfoMontp-M3105/TD1) en format .pdf téléchargeable et imprimable.
+* Le [sujet du TP](TD1.pdf) en format .pdf téléchargeable et imprimable.
 
 
 ## TD1 - Comptes Bancaires
@@ -60,7 +60,7 @@ votre travail pour chaque exercice et également de mieux réviser plus tard.
 
 Cliquez sur le lien ci-dessous pour faire votre fork privé du TP :
 
-https://classroom.github.com/a/lEGllhLA
+https://classroom.github.com/a/3jJke-kc
 
 Date limite de rendu de votre code sur le dépôt GitHub : **Dimanche 27 Septembre, 23h00**
 
